@@ -1,0 +1,88 @@
+
+:root {
+  --background: #07072E;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #07072E;
+    --foreground: #ededed;
+  }
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--foreground);
+  background-image: linear-gradient(to right top, #00bfff, #2f9bd6, #3878ad, #355884, #2b3a5c, #23325e, #1d2a5f, #1a215f, #202787, #2e2ab0, #4627d8, #6619ff);
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+
+.btnl {
+    font-size: 14px;
+    font-weight: 500;
+    color: white !important;
+    background-image: linear-gradient(281deg, #625c70, #ae9dcd);
+    padding: 0px 25px;
+    border-radius: 100px;
+    min-width: 200px;
+    border: transparent;
+    line-height: 48px;
+    white-space: nowrap;
+    transition: all 200ms linear 0ms;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    height: auto;
+    box-shadow: none !important;
+}
+.btn-outline-secondary {
+    color: #6c757d;
+    border-color: #6c757d;
+  }
+
+  .btn {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--white-color);
+    background-image: linear-gradient(to right, #00bfff, #6619ff);
+    padding: 0px 25px;
+    border-radius: 100px;
+    border: transparent;
+    line-height: 48px;
+    white-space: nowrap;
+    transition: all 200ms 
+linear 0ms;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    min-width: 200px;
+    cursor: pointer;
+    height: auto;
+    box-shadow: none !important;
+    margin: 10px;
+}
